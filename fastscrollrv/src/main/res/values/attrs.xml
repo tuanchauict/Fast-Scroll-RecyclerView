@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollPaddingTop" format="reference|dimension"/>
+        <attr name="fastScrollPaddingBottom" format="reference|dimension"/>
+        <attr name="fastScrollPaddingRight" format="reference|dimension"/>
+
+        <attr name="fastScrollThumbColor" format="reference|color"/>
+        <attr name="fastScrollThumbWidth" format="dimension|reference"/>
+        <attr name="fastScrollThumbHeight" format="dimension|reference"/>
+        <attr name="fastScrollThumbRoundRadius" format="dimension|reference"/>
+
+        <attr name="fastScrollTrackColor" format="reference|color"/>
+        <attr name="fastScrollTrackWidth" format="dimension|reference"/>
+        <attr name="fastScrollTrackRoundRadius" format="dimension|reference"/>
+
+        <attr name="fastScrollAutoHideDelay" format="reference|integer"/>
+        <attr name="fastScrollTouchWidth" format="reference|dimension"/>
+
+        <attr name="fastScrollPopupBgColor" format="reference|color"/>
+        <attr name="fastScrollPopupTextColor" format="reference|color"/>
+        <attr name="fastScrollPopupTextSize" format="reference|dimension"/>
+        <attr name="fastScrollPopupHorizontalPadding" format="reference|dimension"/>
+        <attr name="fastScrollPopupVerticalPadding" format="reference|dimension"/>
+        <attr name="fastScrollPopupMargin" format="dimension|reference"/>
+        <attr name="fastScrollPopupRadius" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
